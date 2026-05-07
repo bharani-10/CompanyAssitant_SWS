@@ -38,7 +38,7 @@ Answer + Source Documents
 | **Vector DB** | ChromaDB | Simple, local, perfect for prototypes |
 | **Embeddings** | Sentence Transformers | Fast, accurate, runs locally |
 | **LLM Framework** | LangChain | Abstracts LLM complexity, RAG-ready |
-| **LLM** | OpenAI GPT-3.5/4 | Best quality, but Ollama/Gemini work too |
+| **LLM** | Gemini | Best quality, but Ollama work too |
 | **PDF Loading** | PyPDFLoader (LangChain) | Reliable text extraction |
 | **API Server** | Uvicorn | ASGI server for FastAPI |
 
