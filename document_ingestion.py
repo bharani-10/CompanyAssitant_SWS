@@ -4,10 +4,10 @@ Document ingestion pipeline for loading PDFs and creating embeddings
 import os
 import glob
 from pathlib import Path
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
 from typing import List
 from langchain.schema import Document
 
